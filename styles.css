@@ -159,7 +159,7 @@ input:focus{
     box-shadow: 2px 2px 2px black;
 }
 .right-bottom {
-    height: 350px;
+    height: 300px;
     min-height: 200px;
     background-color: #F9FAFB;
     /* background-color: rgb(109, 109, 96); */
@@ -169,7 +169,9 @@ input:focus{
     padding-left: 50px;
    
 }
-
+.right-bottom button:hover{
+    background-color: #8f9c93;
+}
 .right-bottom button {
 
     position: relative;
@@ -183,9 +185,16 @@ input:focus{
     font-family: "Rowdies", sans-serif;
     font-weight: bold;
     border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .right-bottom p {
     font-size: 1.3rem;
     font-family: "Rowdies", sans-serif;
+}
+
+.right-bottom a {
+    text-decoration: none;
+    color: #86968a;
 }
