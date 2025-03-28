@@ -176,6 +176,7 @@ input:focus{
 }
 .right-bottom button:disabled {
     background-color: gray;
+    transition: 0.7s;
 }
 .right-bottom button:enabled{
     background-color: #86968a;
