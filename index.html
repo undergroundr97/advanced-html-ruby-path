@@ -54,11 +54,11 @@
                         <div class="form-row">
                             <div class="form-opt">
                                 <label for="password">PASSWORD</label>
-                                <input type="password" id="password" name="password" minlength="8" required placeholder="********">
+                                <input type="password" id="password" name="password" minlength="8" required placeholder="********" onkeyup="validation()">
                             </div>
-                            <div class="form-opt">
+                            <div class="form-opt pass1">
                                 <label for="check_pass">CONFIRM PASSWORD</label>
-                                <input type="password" id="check_pass" name="check_pass" minlength="8" required placeholder="********">
+                                <input type="password" id="check_pass" name="check_pass" minlength="8" required placeholder="********" onkeyup="validation()">
                             </div>
                         </div>
 
@@ -68,10 +68,11 @@
                 </form>    
             </div> 
             <div class="right-bottom">
-                    <button form="form1" type="submit">Create Account</button>
+                    <button id='sub_btn' form="form1" type="submit">Create Account</button>
                     <p>Already have an account? <a href="">Log in</a></p>
             </div>
         </div>
     </div>
+    <script src="validation.js"></script>
 </body>
 </html> 

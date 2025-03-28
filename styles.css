@@ -153,10 +153,12 @@ fieldset {
     /* text-underline-offset: unset; */
 }
 input:focus{
-    background-color: lightblue;
+    /* background-color: rgb(199, 199, 199); */
     /* border: 2px solid red; */
     outline: none;
-    box-shadow: 2px 2px 2px black;
+    /* box-shadow: 2px 2px 2px black; */
+    /* border: none; */
+    /* border-radius: 10%; */
 }
 .right-bottom {
     height: 300px;
@@ -171,6 +173,9 @@ input:focus{
 }
 .right-bottom button:hover{
     background-color: #8f9c93;
+}
+.right-bottom button:disabled {
+    background-color: gray;
 }
 .right-bottom button {
 
@@ -189,7 +194,7 @@ input:focus{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 a {
-    
+
 }
 
 .right-bottom p {
@@ -201,3 +206,6 @@ a {
     text-decoration: none;
     color: #86968a;
 }
+
+
+.butt
