@@ -177,6 +177,10 @@ input:focus{
 .right-bottom button:disabled {
     background-color: gray;
 }
+.right-bottom button:enabled{
+    background-color: #86968a;
+    transition: 1s;
+}
 .right-bottom button {
 
     position: relative;
